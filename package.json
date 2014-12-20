@@ -1,0 +1,39 @@
+{
+  "name": "mustache-spec",
+  "description": "mustache/spec as package",
+  "version": "v0.0.0",
+  "scripts": {
+    "lint": "jshint . && jscs . --reporter inline",
+    "test": "mocha --require should"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "keywords": [
+    "mustache",
+    "mustache spec",
+    "spec",
+    "specs",
+    "spec tests"
+    "tests"
+    "test",
+    "specification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/mustache-spec.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/mustache-spec/blob/master/license.md"
+  },
+  "dependencies": {
+    "export-files": "*"
+  },
+  "devDependencies": {
+    "mocha": ">=2",
+    "should": "^4.4.1"
+  }
+}
