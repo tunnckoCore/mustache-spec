@@ -2,6 +2,7 @@
 [![mit license][license-img]][license-url]
 [![build status][travis-img]][travis-url]
 [![deps status][daviddm-img]][daviddm-url]
+[![coveralls][coveralls-img]][coveralls-url]
 
 > mustache/spec as package
 
