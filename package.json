@@ -1,7 +1,7 @@
 {
   "name": "mustache-spec",
   "description": "mustache/spec as package",
-  "version": "v0.0.0",
+  "version": "v0.0.1",
   "scripts": {
     "lint": "jshint . && jscs . --reporter inline",
     "test": "mocha --require should"
