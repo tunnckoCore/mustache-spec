@@ -1,6 +1,6 @@
 {
   "name": "mustache-spec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "{{Mustache}} template specification, `mustache/spec` as package",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
@@ -43,7 +43,7 @@
     "url": "https://github.com/tunnckoCore/mustache-spec/blob/master/license.md"
   },
   "dependencies": {
-    "export-files": ">=0"
+    "export-files": ">=1"
   },
   "devDependencies": {
     "istanbul-harmony": "^0.3.1",
