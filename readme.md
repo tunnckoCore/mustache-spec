@@ -1,27 +1,23 @@
-[![npm version][npmjs-img]][npmjs-url]
-[![mit license][license-img]][license-url]
-[![build status][travis-img]][travis-url]
-[![deps status][daviddm-img]][daviddm-url]
-[![coveralls][coveralls-img]][coveralls-url]
+## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
 
-> mustache/spec as package
+> {{Mustache}} template specification, `mustache/spec` as package
 
 ## Install
 ```bash
-$ npm install mustache-spec
-$ npm test
+npm install mustache-spec
+npm test
 ```
 
 
 ## Usage
-> See the [tests](./test.js)
+> For more use-cases see the [tests](./test.js)
 
 ```js
-var specs = require('mustache-spec');
-
+var mustacheSpec = require('mustache-spec');
+var specs = mustacheSpec();
 //=> specs.comments
+//=> specs.delimiters
 //=> specs.partials
-//=> specs['~lambdas']
 //=> etc...
 ```
 
@@ -36,7 +32,7 @@ var specs = require('mustache-spec');
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
+Copyright (c) 2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
@@ -62,3 +58,7 @@ Released under the [`MIT`][license-url] license.
 
 [contrib-more]: http://j.mp/1stW47C
 [contrib-graf]: https://github.com/tunnckoCore/mustache-spec/graphs/contributors
+
+***
+
+_Powered and automated by [kdf](https://github.com/tunnckoCore), January 22, 2015_
