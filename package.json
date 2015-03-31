@@ -1,6 +1,6 @@
 {
   "name": "mustache-spec",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "{{Mustache}} template specification, `mustache/spec` as package",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
