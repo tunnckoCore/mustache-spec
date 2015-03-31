@@ -11,9 +11,5 @@ var path = require('path');
 var exportFiles = require('export-files');
 
 module.exports = function mustacheSpec() {
-  return exportFiles(path.join(__dirname, 'specs'), {
-    filter: function(fp) {
-      return /\.json$/.test(path.basename(fp));
-    }
-  });
+  return exportFiles(path.join(__dirname, 'specs'));
 };

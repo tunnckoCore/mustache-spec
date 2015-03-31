@@ -10,6 +10,11 @@
 var assert = require('assert');
 var specs = require('./index');
 
+// testing framework
+var lab = exports.lab = require('lab').script();
+var describe = lab.describe;
+var it = lab.it;
+
 describe('mustache-spec:', function() {
   it('should be json object with all data', function(done) {
     assert.strictEqual(Object.keys(specs()).length, 6);

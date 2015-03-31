@@ -1,12 +1,11 @@
 {
   "name": "mustache-spec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "{{Mustache}} template specification, `mustache/spec` as package",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "mocha",
-    "test-cov": "istanbul cover _mocha",
-    "test-travis": "istanbul cover _mocha --report lcovonly"
+    "test": "lab -cv test.js",
+    "test-travis": "lab -cv test.js && lab -r lcov -o ./coverage/lcov.info test.js"
   },
   "author": {
     "name": "Charlike Mike Reagent",
@@ -15,16 +14,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tunnckoCore/mustache-spec.git"
+    "url": "git://github.com/tunnckoCore/mustache-spec321323.git"
   },
-  "keywords": [],
+  "keywords": [
+    "mustache",
+    "mustache spec",
+    "spec",
+    "specs",
+    "spec tests",
+    "tests",
+    "test",
+    "template",
+    "templates",
+    "syntax",
+    "lang",
+    "language",
+    "langs",
+    "languages",
+    "render",
+    "standart",
+    "tpl",
+    "compile",
+    "specification"
+  ],
   "license": {
     "type": "MIT",
-    "url": "https://github.com/tunnckoCore/mustache-spec/blob/master/license.md"
+    "url": "https://github.com/tunnckoCore/mustache-spec321323/blob/master/license.md"
   },
-  "dependencies": {},
+  "dependencies": {
+    "export-files": "~2.0.1"
+  },
   "devDependencies": {
-    "istanbul-harmony": "~0.3.1",
-    "mocha": "~2.2.1"
+    "lab": "~5.5.1"
   }
 }
